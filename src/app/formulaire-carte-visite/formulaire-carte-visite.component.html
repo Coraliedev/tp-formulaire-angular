@@ -2,22 +2,22 @@
   <label for="nom">Nom :</label>
   <input type="text" formControlName="nom" />
   <span *ngIf="this.carteVisite.controls['nom'].invalid && submitted"
-    >*obligatoire</span
+    >*2caractères minimum</span
   >
   <label for="prenom">Prénom :</label>
   <input type="text" formControlName="prenom" />
   <span *ngIf="this.carteVisite.controls['prenom'].invalid && submitted"
-    >*obligatoire</span
+    >*2caractères minimum</span
   >
   <label for="email">Email :</label>
   <input type="email" formControlName="email" />
   <span *ngIf="this.carteVisite.controls['email'].invalid && submitted"
-    >*obligatoire</span
+    >*Veuillez saisir un email valide </span
   >
   <label for="entreprise">Entreprise :</label>
   <input type="text" formControlName="entreprise" />
   <span *ngIf="this.carteVisite.controls['entreprise'].invalid && submitted"
-    >*obligatoire</span
+    >*2caractères minimum</span
   >
   <label for="telephone">Telephone :</label>
   <input type="text" formControlName="telephone" />
